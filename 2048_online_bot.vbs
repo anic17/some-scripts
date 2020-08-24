@@ -27,7 +27,7 @@ Do While var < 255
 		keys.sendkeys "{ENTER}"
 		WScript.Sleep(5000)
 		var = var + 1
-		tempvar = var % 10
+		tempvar = var Mod 10
 		if tempvar = 0 Then
 			keys.sendkeys "Bot created by anic17!"
 			keys.sendkeys "{ENTER}"
